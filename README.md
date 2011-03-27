@@ -1,5 +1,7 @@
 # Pages Autocomplete Accessory
 
+![Pages Autocomplete Accessory](http://iain.co.nz/dev/pages_autocomplete.gif)
+
 ### Overview
 
 A simple accessory that turns the 'Pages URI' field on the publish page into an autocomplete text input. Makes selecting a parent page uri a bit easier for clients..._
