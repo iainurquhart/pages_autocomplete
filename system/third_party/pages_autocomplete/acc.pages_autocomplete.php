@@ -82,7 +82,12 @@ class Pages_autocomplete_acc {
 					anyone know why the folks at Ellislab dont load ui css files with the plugins?
 				*/
 			
-				.ui-autocomplete { position: absolute; cursor: default; background: #fff; -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.3); font-size: 12px; }	
+				.ui-autocomplete { position: absolute; cursor: default; background: #fff; font-size: 12px; 
+				-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.3);
+				-moz-box-shadow: 0 0 10px rgba(0,0,0,0.3);
+				-o-box-shadow: 0 0 10px rgba(0,0,0,0.3);
+				box-shadow: 0 0 10px rgba(0,0,0,0.3);
+				}	
 				
 				/* workarounds */
 				* html .ui-autocomplete { width:1px; } /* without this, the menu expands to 100% in IE6 */
